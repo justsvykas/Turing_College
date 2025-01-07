@@ -19,3 +19,4 @@ In this part we are required to solve some of [HackerRank](https://www.hackerran
 
 - [Matrix Script](https://www.hackerrank.com/challenges/matrix-script/problem). My solution is [here](https://github.com/justsvykas/Turing_College/tree/main/module_1/sprint_2/part_4/matrix_script)
 - [Validating UID](https://www.hackerrank.com/challenges/validating-uid/problem). My solution is [here](https://github.com/justsvykas/Turing_College/tree/main/module_1/sprint_2/part_4/validating_UID)
+- [Piling Up]. My solution is [here](https://github.com/justsvykas/Turing_College/tree/main/module_1/sprint_2/part_4/piling_up)
