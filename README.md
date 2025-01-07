@@ -18,3 +18,4 @@ In this part I experimented with Git during which I created repository [Kevin Co
 In this part we are required to solve some of [HackerRank](https://www.hackerrank.com/) exercises. I dont like coding enviroment in HackerRank website so for more hard exercises I code locally and then paste the code there. Given the opportunity I decided to practice my git skills and also push the code in this repository. The exercises which I solved locally are as follows:
 
 - [Matrix Script](https://www.hackerrank.com/challenges/matrix-script/problem). My solution is [here](https://github.com/justsvykas/Turing_College/tree/main/module_1/sprint_2/part_4/matrix_script)
+- [Validating UID](https://www.hackerrank.com/challenges/validating-uid/problem). My solution is [here](https://github.com/justsvykas/Turing_College/tree/main/module_1/sprint_2/part_4/validating_UID)
