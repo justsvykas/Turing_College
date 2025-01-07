@@ -15,5 +15,6 @@ In this part I created [Chess Capture Analysis Tool](https://github.com/justsvyk
 In this part I experimented with Git during which I created repository [Kevin Cookie Factory](https://github.com/justsvykas/KevinCookieCompany) in which I played around with Git locally and then created cloud repository in Github.
 
 ### Part 4
-In this part we are required to solve some of [HackerRank](https://www.hackerrank.com/) exercises. I dont like coding enviroment in HackerRank website so I code locally and then paste the code there. Given the opportunity I decided to practice my git skills and also push the code in this repository. The exercises are as follows:
+In this part we are required to solve some of [HackerRank](https://www.hackerrank.com/) exercises. I dont like coding enviroment in HackerRank website so for more hard exercises I code locally and then paste the code there. Given the opportunity I decided to practice my git skills and also push the code in this repository. The exercises which I solved locally are as follows:
 
+- [Matrix Script](https://www.hackerrank.com/challenges/matrix-script/problem). My solution is here
