@@ -1,9 +1,14 @@
+# If you dont want to input use this instead
+# matrix = ["Tsi",r"h%x","i #", "sM ", "$a ", "#t%", "ir!"]
 import re
 
-
-matrix = ["Tsi",r"h%x","i #", "sM ", "$a ", "#t%", "ir!"]
-
 def main():
+    first_multiple_input = input().rstrip().split()
+    n = int(first_multiple_input[0])
+    matrix = []
+    for _ in range(n):
+        matrix_item = input()
+        matrix.append(matrix_item)
     my_string = matrix_to_string(matrix)
     print(decode(my_string))
 
@@ -31,8 +36,6 @@ def find_begining(string):
     my_match = re.match(r"(^[\W]*([\w]+))", string)
     return my_match.group(2), my_match.group(1)
 
-
-if __name__ == "__main__":
-    main()
-
-
+# use if __name__ == "__main__": main() for tests
+# Not using it here as requirement for exercise is no if's
+main()
