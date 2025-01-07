@@ -1,10 +1,19 @@
 # Turing_College
 
-Here I keep track of other local repo's and folders associated in my journey with TC.
+Here I keep track of some repo's and folders associated in my journey with TC.
 
-## Module 1 
+# Module 1 
 
-### Sprint 1
+## Sprint 1
 
-#### Project
+### Project
 In this part I created [Chess Capture Analysis Tool](https://github.com/justsvykas/Chess_analysis_tool). It is a Python-based project designed to analyze chess positions and determine which black pieces a single white piece can capture. It has been since reviewed and graded.
+
+## Sprint 2
+
+### Part 2
+In this part I experimented with Git during which I created repository [Kevin Cookie Factory](https://github.com/justsvykas/KevinCookieCompany) in which I played around with Git locally and then created cloud repository in Github.
+
+### Part 4
+In this part we are required to solve some of [HackerRank](https://www.hackerrank.com/) exercises. I dont like coding enviroment in HackerRank website so I code locally and then paste the code there. Given the opportunity I decided to practice my git skills and also push the code in this repository. The exercises are as follows:
+
