@@ -1,10 +1,7 @@
-import sys
-import io
+def example_function(a: int, b: int):
+    sum = a + b  # variable 'sum' should not shadow the built-in 'sum'
+    return sum
 
-sys.stdin = io.StringIO("2\n6\n4 3 2 1 2 3 4\n3\n1 3 2")
 
-lines = sys.stdin.read().splitlines()
-
-for index in range(1,len(lines),2):
-    cubes = lines[index+1].split()
-    print(cubes)
+result = example_function(5, 10)
+print(result)
