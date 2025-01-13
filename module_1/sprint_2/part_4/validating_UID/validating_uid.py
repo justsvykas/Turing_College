@@ -1,6 +1,7 @@
 # this doesnt pass 3rd test, but in discussion part i found that there is error in inputs
-import sys
 import re
+import sys
+
 
 def validate(uid):
     if re.search(r"^.*[A-Z]{2,}.*$", uid):
