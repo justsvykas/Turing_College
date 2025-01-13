@@ -1,0 +1,21 @@
+[project]
+name = "turing_college"
+version = "0.1.0"
+description = "This file is to keep track of all the packages I am using during my journey in TC"
+authors = [
+    {name = "Justinas"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "kagglehub (>=0.3.6,<0.4.0)",
+    "ipykernel (>=6.29.5,<7.0.0)",
+    "pandas (>=2.2.3,<3.0.0)",
+    "matplotlib (>=3.10.0,<4.0.0)",
+    "scikit-learn (>=1.6.1,<2.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
