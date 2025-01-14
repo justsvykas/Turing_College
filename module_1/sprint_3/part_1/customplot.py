@@ -4,9 +4,6 @@
 
 
 def pd_centers(featuresUsed, centers):
-	from itertools import cycle, islice
-	from pandas.plotting import parallel_coordinates
-	import matplotlib.pyplot as plt
 	import pandas as pd
 	import numpy as np
 
