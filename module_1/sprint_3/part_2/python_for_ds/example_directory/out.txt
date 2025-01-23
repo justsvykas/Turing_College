@@ -1,0 +1,8 @@
+/root/Turing_College/module_1/sprint_3/part_2/python_for_ds/example_directory
+total 5476
+-rw-r--r-- 1 root root      64 Jan 15 12:36 fruits.txt
+-rw-r--r-- 1 root root      78 Jan 15 12:48 out.txt
+-rw-r--r-- 1 root root 5583442 Jan 15 11:13 shakespeare.txt
+-rw-r--r-- 1 root root      64 Jan 15 12:40 sorted_fruits.txt
+-rw-r--r-- 1 root root      49 Jan 15 12:42 uniq_fruits.txt
+-rw-r--r-- 1 root root      39 Jan 15 12:46 users.txt

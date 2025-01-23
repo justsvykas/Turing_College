@@ -1,0 +1,58 @@
+UID          PID    PPID  C STIME TTY          TIME CMD
+message+     160       1  0 Jan14 ?        00:00:48 @dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+polkitd    13253       1  0 Jan14 ?        00:00:00 /usr/lib/polkit-1/polkitd --no-debug
+root           1       0  0 Jan14 ?        00:04:57 /sbin/init
+root           2       1  0 Jan14 ?        00:00:05 /init
+root           6       2  0 Jan14 ?        00:00:00 plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --log-truncate
+root          54       1  0 Jan14 ?        00:02:18 /usr/lib/systemd/systemd-journald
+root          99       1  0 Jan14 ?        00:02:15 /usr/lib/systemd/systemd-udevd
+root         158       1  0 Jan14 ?        00:00:01 /usr/sbin/cron -f -P
+root         173       1  0 Jan14 ?        00:00:17 /usr/lib/systemd/systemd-logind
+root         185       1  0 Jan14 hvc0     00:00:00 /sbin/agetty -o -p -- \u --noclear --keep-baud - 115200,38400,9600 vt220
+root         202       1  0 Jan14 tty1     00:00:00 /sbin/agetty -o -p -- \u --noclear - linux
+root         212       1  0 Jan14 ?        00:00:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root         318       2  0 Jan14 pts/1    00:00:00 /bin/login -f
+root         418       1  0 Jan14 ?        00:00:03 /usr/lib/systemd/systemd --user
+root         419     418  0 Jan14 ?        00:00:00 (sd-pam)
+root         442     318  0 Jan14 pts/1    00:00:00 -bash
+root        3046       2  0 Jan14 ?        00:00:00 /init
+root        3047    3046  0 Jan14 ?        00:00:01 /init
+root        3048    3047  0 Jan14 pts/2    00:00:00 sh -c "$VSCODE_WSL_EXT_LOCATION/scripts/wslServer.sh" 91fbdddc47bc9c09064bf7acf133d22631cbf083 stable code-server .vscode-server --host=127.0.0.1 --port=0 --connection-token=1346766576-3305674634-3183687945-528161533 --use-host-proxy --without-browser-env-var --disable-websocket-compression --accept-server-license-terms --telemetry-level=all
+root        3049    3048  0 Jan14 pts/2    00:00:00 sh /mnt/c/Users/justs/.vscode/extensions/ms-vscode-remote.remote-wsl-0.88.5/scripts/wslServer.sh 91fbdddc47bc9c09064bf7acf133d22631cbf083 stable code-server .vscode-server --host=127.0.0.1 --port=0 --connection-token=1346766576-3305674634-3183687945-528161533 --use-host-proxy --without-browser-env-var --disable-websocket-compression --accept-server-license-terms --telemetry-level=all
+root        3054    3049  0 Jan14 pts/2    00:00:00 sh /root/.vscode-server/bin/91fbdddc47bc9c09064bf7acf133d22631cbf083/bin/code-server --host=127.0.0.1 --port=0 --connection-token=1346766576-3305674634-3183687945-528161533 --use-host-proxy --without-browser-env-var --disable-websocket-compression --accept-server-license-terms --telemetry-level=all
+root        3058    3054  0 Jan14 pts/2    00:02:22 /root/.vscode-server/bin/91fbdddc47bc9c09064bf7acf133d22631cbf083/node /root/.vscode-server/bin/91fbdddc47bc9c09064bf7acf133d22631cbf083/out/server-main.js --host=127.0.0.1 --port=0 --connection-token=1346766576-3305674634-3183687945-528161533 --use-host-proxy --without-browser-env-var --disable-websocket-compression --accept-server-license-terms --telemetry-level=all
+root        3314    3058  0 Jan14 pts/2    00:02:01 /root/.vscode-server/bin/91fbdddc47bc9c09064bf7acf133d22631cbf083/node /root/.vscode-server/bin/91fbdddc47bc9c09064bf7acf133d22631cbf083/out/bootstrap-fork --type=ptyHost --logsPath /root/.vscode-server/data/logs/20250114T101745
+root        4062    3058  0 Jan14 pts/2    00:00:42 /root/.vscode-server/bin/91fbdddc47bc9c09064bf7acf133d22631cbf083/node /root/.vscode-server/bin/91fbdddc47bc9c09064bf7acf133d22631cbf083/out/bootstrap-fork --type=fileWatcher
+root        4073    3058  4 Jan14 pts/2    00:39:18 /root/.vscode-server/bin/91fbdddc47bc9c09064bf7acf133d22631cbf083/node --dns-result-order=ipv4first /root/.vscode-server/bin/91fbdddc47bc9c09064bf7acf133d22631cbf083/out/bootstrap-fork --type=extensionHost --transformURIs --useHostProxy=true
+root        4132    4073  0 Jan14 pts/2    00:00:06 /root/.vscode-server/extensions/ms-python.python-2024.22.2-linux-x64/python-env-tools/bin/pet server
+root        4310    3314  0 Jan14 pts/6    00:00:00 /bin/bash --init-file /root/.vscode-server/bin/91fbdddc47bc9c09064bf7acf133d22631cbf083/out/vs/workbench/contrib/terminal/common/scripts/shellIntegration-bash.sh
+root        4343    3314  0 Jan14 pts/7    00:00:03 /bin/bash --init-file /root/.vscode-server/bin/91fbdddc47bc9c09064bf7acf133d22631cbf083/out/vs/workbench/contrib/terminal/common/scripts/shellIntegration-bash.sh
+root        4466    4073  2 Jan14 pts/2    00:18:30 /root/.vscode-server/bin/91fbdddc47bc9c09064bf7acf133d22631cbf083/node /root/.vscode-server/extensions/ms-python.vscode-pylance-2024.12.1/dist/server.bundle.js --cancellationReceive=file:8bcdbf155f000f7903007d02214db3011ea2675b59 --node-ipc --clientProcessId=4073
+root        4622    4073  0 Jan14 pts/2    00:01:00 /root/Turing_College/.venv/bin/python -m ipykernel_launcher --f=/root/.local/share/jupyter/runtime/kernel-v307e145e9677cabcd01b170587c0044cf0b55231e.json
+root       14425    4073  0 Jan14 pts/2    00:00:05 /root/Turing_College/.venv/bin/python /root/.vscode-server/extensions/ms-python.mypy-type-checker-2024.0.0/bundled/tool/lsp_server.py
+root       14428    4073  0 Jan14 pts/2    00:00:49 /root/Turing_College/.venv/bin/python /root/.vscode-server/extensions/charliermarsh.ruff-2025.2.0-linux-x64/bundled/tool/server.py
+root       14430    4073  0 Jan14 pts/2    00:00:12 /root/Turing_College/.venv/bin/python /root/.vscode-server/extensions/ms-python.black-formatter-2024.4.0/bundled/tool/lsp_server.py --stdio
+root       14440    3314  0 Jan14 pts/8    00:00:00 /bin/bash --init-file /root/.vscode-server/bin/91fbdddc47bc9c09064bf7acf133d22631cbf083/out/vs/workbench/contrib/terminal/common/scripts/shellIntegration-bash.sh
+root       91618    4073  0 01:17 pts/2    00:00:07 /root/Turing_College/.venv/bin/python -m ipykernel_launcher --f=/root/.local/share/jupyter/runtime/kernel-v323a7acec7157bd463f9d773f18c90a4e6d71dd45.json
+root       99245    4073  0 01:33 pts/2    00:00:10 /root/.vscode-server/bin/91fbdddc47bc9c09064bf7acf133d22631cbf083/node /root/.vscode-server/bin/91fbdddc47bc9c09064bf7acf133d22631cbf083/extensions/html-language-features/server/dist/node/htmlServerMain --node-ipc --clientProcessId=4073
+root      163568    4073  0 03:50 pts/2    00:00:39 /root/Turing_College/.venv/bin/python -m ipykernel_launcher --f=/root/.local/share/jupyter/runtime/kernel-v3e27d3476e7877dd3d6c25509144211819bf2841e.json
+root      273870       2  0 07:49 ?        00:00:00 /init
+root      273871  273870  0 07:49 ?        00:00:01 /init
+root      273872  273871  0 07:49 pts/0    00:00:09 /root/.vscode-server/bin/91fbdddc47bc9c09064bf7acf133d22631cbf083/node -e const net = require('net'); process.stdin.pause(); const client = net.createConnection({ host: '127.0.0.1', port: 44259 }, () => { client.pipe(process.stdout); process.stdin.pipe(client); }); client.on('close', function (hadError) { console.error(hadError ? 'Remote close with error' : 'Remote close'); process.exit(hadError ? 1 : 0); }); client.on('error', function (err) { process.stderr.write(err && (err.stack || err.message) || String(err)); });
+root      273896       2  0 07:49 ?        00:00:00 /init
+root      273897  273896  0 07:49 ?        00:00:14 /init
+root      273898  273897  0 07:49 pts/3    00:00:40 /root/.vscode-server/bin/91fbdddc47bc9c09064bf7acf133d22631cbf083/node -e const net = require('net'); process.stdin.pause(); const client = net.createConnection({ host: '127.0.0.1', port: 44259 }, () => { client.pipe(process.stdout); process.stdin.pipe(client); }); client.on('close', function (hadError) { console.error(hadError ? 'Remote close with error' : 'Remote close'); process.exit(hadError ? 1 : 0); }); client.on('error', function (err) { process.stderr.write(err && (err.stack || err.message) || String(err)); });
+root      345278      99  0 11:12 ?        00:00:00 (udev-worker)
+root      345279      99  0 11:12 ?        00:00:20 (udev-worker)
+root      345280      99  0 11:12 ?        00:00:06 (udev-worker)
+root      345281      99  0 11:12 ?        00:00:00 (udev-worker)
+root      345295      99  0 11:12 ?        00:00:01 (udev-worker)
+root      345726      99  0 11:13 ?        00:00:12 (udev-worker)
+root      378651       2  0 12:44 ?        00:00:00 /init
+root      378652  378651  0 12:44 ?        00:00:00 /init
+root      378653  378652  0 12:44 pts/4    00:00:00 -bash
+root      386004    4343  0 13:04 pts/7    00:00:00 ps -aef
+root      386005    4343  0 13:04 pts/7    00:00:00 sort
+syslog       194       1  0 Jan14 ?        00:00:36 /usr/sbin/rsyslogd -n -iNONE
+systemd+     148       1  0 Jan14 ?        00:00:00 /usr/lib/systemd/systemd-resolved
+systemd+     149       1  0 Jan14 ?        00:00:02 /usr/lib/systemd/systemd-timesyncd
