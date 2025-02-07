@@ -1,20 +1,24 @@
-[project]
+[tool.poetry]
 name = "turing_college"
 version = "0.1.0"
 description = "This file is to keep track of all the packages I am using during my journey in TC"
-authors = [
-    {name = "Justinas"}
-]
+authors = ["Justinas"]
 readme = "README.md"
-requires-python = ">=3.12"
-dependencies = [
-    "kagglehub (>=0.3.6,<0.4.0)",
-    "ipykernel (>=6.29.5,<7.0.0)",
-    "pandas (>=2.2.3,<3.0.0)",
-    "matplotlib (>=3.10.0,<4.0.0)",
-    "scikit-learn (>=1.6.1,<2.0.0)"
-]
+package-mode = false
 
+[tool.poetry.dependencies]
+python = "^3.12"
+kagglehub = "^0.3.7"
+pandas = "^2.2.3"
+matplotlib = "^3.10.0"
+scikit-learn = "^1.6.1"
+cufflinks = "^0.17.3"
+chart-studio = "^1.1.0"
+seaborn = "^0.13.2"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]

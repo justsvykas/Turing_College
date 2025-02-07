@@ -4,3 +4,8 @@ project_reviews/
 module_1/sprint_3/project_example_arjan
 project_tamplate/
 module_1/sprint_2/git_ex/
+
+.vscode/
+.ruff_cache/
+.mypy_cache/
+.venv
